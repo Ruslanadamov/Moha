@@ -1,0 +1,13 @@
+.row {
+  width: 100%;
+}
+.carousel-item img {
+  height: 700px;
+}
+.inputList {
+  list-style-type: none;
+}
+.subscribe-info-avatar img {
+  width: 150px;
+  height: 150px;
+}
