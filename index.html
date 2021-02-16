@@ -13,13 +13,17 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-                <div class="d-flex justify-content-between w-100">
-                    <div class="flex-row">
-                        <a class="navbar-brand" href="index.html">Адвокат Исаев Моха</a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark context-dark bg-dark bg-gradient">
+            <div class="container">
+                <div class="d-flex justify-content-between w-100 align-items-center">
+                    <a class="navbar-ava d-none d-sm-block" href="index.html"><img src="img/ava-moha.png" alt="ava"></a>
+                    <div class="d-flex flex-column w-100">
+                        <h1>Адвокат Исаев Моха</h1>
+                        <span>8 (926) 335-05-54</span>
+                        <span>moha.isaev@yandex.ru</span>
+                        <span>Москва, регистрационный номер №77/12651</span>
                     </div>
                     <div class="flex-row">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -38,21 +42,16 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Pricing</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled" href="#" tabindex="-1"
-                                        aria-disabled="true">Disabled</a>
-                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-
-
-
-            </nav>
-        </header>
-        <section class="slider d-none d-lg-block">
-
+            </div>
+            </div>
+        </nav>
+    </header>
+    <section class="slider d-none d-lg-block">
+        <div class="container">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -96,8 +95,9 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-
-        </section>
+        </div>
+    </section>
+    <div class="container">
         <section class="text">
             <div class="d-grid gap-2 col-4 mx-auto mt-5 mb-4">
                 <button type="button" class="btn btn-success btn-lg">Записаться на консультацию</button>
@@ -169,22 +169,12 @@
                 <button type="button" class="btn btn-success btn-lg">Записаться на консультацию</button>
             </div>
         </section>
-        <!-- <div class="footer-botton">
-            <div class="botton-copy"> © Copyright - INTERIOR 2016. All Rights Reserved. </div>
-            <div class="botton-midle">
-                <a href="#" class="society-link"><img src="img/facebook.svg" alt="facebook" class="icons"></a>
-                <a href="#" class="society-link"><img src="img/twitter.svg" alt="twitter" class="icons"></a>
-                <a href="#" class="society-link"><img src="img/google+.svg" alt="googleplus" class="icons"></a>
-                <a href="#" class="society-link"><img src="img/telegram-plane-brands.svg" alt="telegram"
-                        class="icons"></a>
-            </div>
-            <div class="bottom-terms">Terms & Conditions / Privacy policy & Cookies</div>
-        </div> -->
-        <section class="contacts">
+
+        <!-- <section class="contacts">
             <span class="">Контакты</span>
             <div class="row">
                 <div class="col-sm justify-content-center">
-                    <div class="subscribe-info-avatar"><img src="img/ava-moha.png" alt="subscribe-info-avatar"></div>
+                    <div class="subscribe-info-avatar"></div>
                     <div>+7-964-776-53-78</div>
                     <div>moha.isaev@yandex.ru</div>
                     <div>Москва, регистрационный номер №77/12651</div>
@@ -230,10 +220,59 @@
             <div class="d-grid gap-2 col-4 mx-auto mt-5 mb-4">
                 <button type="button" class="btn btn-success btn-lg">Записаться на консультацию</button>
             </div>
-        </section>
-
+        </section> -->
     </div>
-
+    <footer class="section footer-classic context-dark bg-dark bg-gradient">
+        <div class="container">
+            <div class="row align-items-start py-2">
+                <div class="col-md-4 col-xl-5">
+                    <div class="pr-xl-4">
+                        <h3>Почувствуй себя под защитой!</h3>
+                        <!-- Rights-->
+                        <p class="rights"><span>©  </span><span class="copyright-year">2021 Все права
+                                защищены
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5>Контакты</h5>
+                    <dl class="contact-list">
+                        <dt>Адрес:</dt>
+                        <dd>ул. Большая Никитская, д. 50а/5, стр.1</dd>
+                    </dl>
+                    <dl class="contact-list">
+                        <dt>Email:</dt>
+                        <dd><a href="mailto:#">moha.isaev@yandex.ru</a></dd>
+                    </dl>
+                    <dl class="contact-list">
+                        <dt>Телефон:</dt>
+                        <dd><a href="tel:#">+7-964-776-53-78</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="col-md-4 col-xl-3">
+                    <h5>Полезное</h5>
+                    <ul class="nav-list">
+                        <li><a href="https://vk.com/ekzamen_na_advokata">Экзамен на статус адвоката</a></li>
+                        <li><a href="#">Интересные судебные дела</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <!-- <li><a href="#">Contacts</a></li> -->
+                        <li><a href="#">Цены</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters social-container">
+            <div class="col"><a class="social-inner" href="https://www.facebook.com/muhammad.djabrailov"><span
+                        class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+            <div class="col"><a class="social-inner" href="https://www.instagram.com/m.isaevlaw/"><span
+                        class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+            <!-- <div class="col"><a class="social-inner" href="#"><span
+                        class="icon mdi mdi-twitter"></span><span>twitter</span></a></div> -->
+            <div class="col"><a class="social-inner" href="https://vk.com/advokat_isaev_moha"><span
+                        class="icon mdi mdi-youtube-play"></span><span>VK</span></a></div>
+        </div>
+    </footer>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
